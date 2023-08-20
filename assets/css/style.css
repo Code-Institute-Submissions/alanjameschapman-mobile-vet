@@ -87,8 +87,19 @@ main {
 }
 
 /* footer */
-footer {
-    background-color: #6e6388;
+#social {
+    background-color: #457adc;
+    text-align: center;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social i {
+    font-size: 150%;
+    color: #ffffff;
+    padding: 
 }
 
 /* Media queries for tablet (768px), laptop (992px) and desktop (1200px) */
