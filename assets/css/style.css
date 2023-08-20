@@ -26,9 +26,12 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 3px 3px #203268;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
-/* Navbar styles with dropdown */
+/* Navbar styles with toggled dropdown */
 nav {
     position: absolute;
     background-color: #457adc;
@@ -37,13 +40,27 @@ nav {
     width: 100%;
     box-shadow: 0 3px 3px #203268;
     display: none;
+    top: 100%;
+}
+
+/* navbar toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 #menu {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
