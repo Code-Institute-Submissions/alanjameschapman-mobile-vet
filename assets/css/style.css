@@ -25,7 +25,6 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 3px 3px #203268;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -66,7 +65,8 @@ nav {
 }
 
 .active {
-    border-bottom: 1px solid #203268;
+    border-bottom: 1px solid #fbfbfb;
+    font-weight: 400;
 }
 
 header a {
@@ -90,7 +90,7 @@ main {
 #social {
     background-color: #457adc;
     text-align: center;
-    padding: 25px 0;
+    padding: 10px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
@@ -99,7 +99,6 @@ main {
 #social i {
     font-size: 150%;
     color: #ffffff;
-    padding: 
 }
 
 /* Media queries for tablet (768px), laptop (992px) and desktop (1200px) */
