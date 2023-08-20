@@ -28,6 +28,17 @@ header {
     box-shadow: 0 3px 3px #203268;
 }
 
+/* Navbar styles with dropdown */
+nav {
+    position: absolute;
+    background-color: #457adc;
+    padding: 0 1rem;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 3px 3px #203268;
+    display: none;
+}
+
 #menu {
     list-style-type: none;
 }
