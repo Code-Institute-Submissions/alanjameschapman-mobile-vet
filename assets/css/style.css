@@ -28,6 +28,19 @@ header {
     box-shadow: 0 3px 3px #203268;
 }
 
+#menu {
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.active {
+    border-bottom: 1px solid #203268;
+}
+
 header a {
     text-decoration: none;
     color: #fbfbfb;
