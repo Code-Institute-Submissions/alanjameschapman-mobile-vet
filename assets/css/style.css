@@ -23,6 +23,10 @@ header {
     background-color: lightcoral;
 }
 
+h1 {
+    font-family: 'Lora', serif;
+}
+
 /* main content */
 main {
     background-color: lightblue;
