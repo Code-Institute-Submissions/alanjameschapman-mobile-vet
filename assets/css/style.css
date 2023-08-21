@@ -24,6 +24,10 @@ body {
     padding: 1rem
 }
 
+p {
+    font-family: 'Martel', serif;
+}
+
 /* header */
 header {
     background-color: #457adc;
@@ -119,14 +123,14 @@ main {
 }
 
 /* Flex styling */
-#index-container-box {
+#flex-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
 }
 
-#index-container-item {
-    
+#flex-item {
+    text-align: center;
 }
 
 /* Media queries for tablet (768px), laptop (992px) and desktop (1200px) */
