@@ -18,6 +18,12 @@ body {
     font-family: 'Lora', serif;
 }
 
+#hero-text > h2 {
+    font-family: 'Martel', serif;
+    color: #203268;
+    padding: 1rem
+}
+
 /* header */
 header {
     background-color: #457adc;
@@ -37,7 +43,6 @@ nav {
     padding: 0 1rem;
     left: 0;
     width: 100%;
-    box-shadow: 0 3px 3px #203268;
     display: none;
     top: 100%;
 }
@@ -74,10 +79,6 @@ header a {
     color: #fbfbfb;
 }
 
-h1 {
-    font-family: 'Lora', serif;
-}
-
 /* main content */
 main {
     background-color: #fbfbfb;
@@ -88,9 +89,18 @@ main {
 
 /* hero section */
 #hero {
-    height: 600px;
+    height: 750px;
     width: 100%;
     background: url("../images/dog-and-cat.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#hero-text {
+    background-color: rgba(251, 251, 251, 0.5);
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    /* min-height: 100px; */
 }
 
 /* footer */
