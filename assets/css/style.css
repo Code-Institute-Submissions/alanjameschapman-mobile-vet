@@ -125,24 +125,24 @@ main {
 }
 
 #vet-boss {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background: url("../images/vet-boss.jpg") no-repeat center center/cover;
     position: relative;
-    /* align: center; */
+    vertical-align: center;
 }
 
 #joe-bloggs {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background: url("../images/joe-bloggs.jpg") no-repeat center center/cover;
     position: relative;
     /* align: center; */
 }
 
 #john-doe {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background: url("../images/john-doe.jpg") no-repeat center center/cover;
     position: relative;
     /* align: center; */
@@ -180,7 +180,7 @@ main {
 
 .flex-item {
     text-align: center;
-    /* max-width: 500px; */
+    max-width: 450px;
 }
 
 /* Media queries for tablet (768px), laptop (992px) and desktop (1200px) */
