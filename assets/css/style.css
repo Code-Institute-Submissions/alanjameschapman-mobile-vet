@@ -128,28 +128,16 @@ main {
     position: relative;
 }
 
-#vet-boss {
-    height: 300px;
-    width: 300px;
-    background: url("../images/vet-boss.jpg") no-repeat center center/cover;
-    position: relative;
-    vertical-align: center;
+.center-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* max-width: 450px; */
 }
 
-#joe-bloggs {
-    height: 300px;
-    width: 300px;
-    background: url("../images/joe-bloggs.jpg") no-repeat center center/cover;
-    position: relative;
-    box-align: center;
-}
-
-#john-doe {
-    height: 300px;
-    width: 300px;
-    background: url("../images/john-doe.jpg") no-repeat center center/cover;
-    position: relative;
-    /* align: center; */
+.centered-image {
+    max-width: 100%;
+    height: auto;
 }
 
 #hero-text {
