@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    <div id="top"></div>
     <!-- header -->
     <header>
       <a href="index.html">
@@ -43,18 +44,26 @@
           </h2>
         </div>
       </section>
-      <section id="flex-container">
-        <div id="flex-item">
+      <section class="flex-container">
+        <div class="flex-item">
           <h3>Where We Are</h3>
-          <p>Map here</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9327.981168032638!2d-1.3449302!3d54.233272!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487eb746c3773d7b%3A0x57fbdcf0150f19ba!2sThe%20World%20Of%20James%20Herriot!5e0!3m2!1sen!2spt!4v1692725057691!5m2!1sen!2spt"
+            width="350"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
-        <div id="flex-item">
-          <h3>Contact Details</h3>
-          <p>Words here</p>
-        </div>
-        <div id="flex-item">
-          <h3>Reviews</h3>
-          <p>Words here</p>
+        <div class="flex-item">
+          <h3>Address</h3>
+          <p>
+            23 Kirkgate<br />
+            North Yorkshire<br />
+            YO7 1PL
+          </p>
         </div>
       </section>
     </main>
@@ -92,7 +101,7 @@
           ></a>
         </li>
       </ul>
-      <div>Click here to return to top of page.</div>
+      <div><a href="#top">Click here to return to top of page.</a></div>
       <div>This page is for educational purposes only.</div>
     </footer>
 

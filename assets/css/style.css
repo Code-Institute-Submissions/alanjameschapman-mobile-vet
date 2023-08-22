@@ -31,6 +31,12 @@ body {
 
 p {
     font-family: 'Martel', serif;
+    /* text-align: left; */
+}
+
+h3 {
+    text-decoration: underline;
+    line-height: 2;
 }
 
 /* header */
@@ -166,14 +172,15 @@ main {
 }
 
 /* Flex styling */
-#flex-container {
+.flex-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
 }
 
-#flex-item {
+.flex-item {
     text-align: center;
+    /* max-width: 500px; */
 }
 
 /* Media queries for tablet (768px), laptop (992px) and desktop (1200px) */
