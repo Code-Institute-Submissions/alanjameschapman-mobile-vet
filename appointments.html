@@ -45,10 +45,62 @@
       <section class="flex-container">
         <div class="flex-item">
           <h3>Booking form</h3>
-          <p>Form here</p>
+          <form>
+            <label for="ownerFirstName">Owner First Name:</label>
+            <input
+              type="text"
+              id="ownerFirstName"
+              name="ownerFirstName"
+              required
+            /><br /><br />
+
+            <label for="ownerLastName">Owner Last Name:</label>
+            <input
+              type="text"
+              id="ownerLastName"
+              name="ownerLastName"
+              required
+            /><br /><br />
+
+            <label for="mobileNumber">Mobile Number:</label>
+            <input
+              type="tel"
+              id="mobileNumber"
+              name="mobileNumber"
+              required
+            /><br /><br />
+
+            <label for="petName">Pet Name:</label>
+            <input
+              type="text"
+              id="petName"
+              name="petName"
+              required
+            /><br /><br />
+
+            <label for="breed">Breed:</label>
+            <input type="text" id="breed" name="breed" required /><br /><br />
+
+            <label for="symptomSummary">Symptom Summary:</label><br />
+            <textarea
+              id="symptomSummary"
+              name="symptomSummary"
+              rows="4"
+              cols="50"
+              required
+            ></textarea
+            ><br /><br />
+
+            <input type="submit" value="Submit" />
+          </form>
         </div>
         <div class="flex-item">
-          <p>Time and date embedded here - calendly?</p>
+          <iframe
+            src="https://calendly.com/alanjameschapman/"
+            width="350px"
+            height="350px"
+            frameborder="0"
+          ></iframe>
         </div>
       </section>
     </main>
