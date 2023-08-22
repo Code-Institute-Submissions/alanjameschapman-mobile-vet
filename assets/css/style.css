@@ -9,6 +9,11 @@
 }
 
 /* General styles */
+
+div {
+    text-align: center;
+}
+
 body {
     min-height: 100vh;
     display: flex;
