@@ -23,6 +23,10 @@ body {
     font-family: 'Lora', serif;
 }
 
+form {
+    text-align: left;
+}
+
 #hero-text>h2 {
     font-family: 'Martel', serif;
     color: #203268;
