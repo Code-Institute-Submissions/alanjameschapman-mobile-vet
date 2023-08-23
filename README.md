@@ -16,33 +16,20 @@ The Mobile Vet is a Veterinary Service to treat poorly animals. There will be a 
 
 ![Nav Bar](docs/screenshots/navbar.png)
 
-- **The landing page image**
+- **The hero images**
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - Common to all but The Team page (which already contains three profile images) each page has an image with text overlay to summarise to the user what the page is about. Each page has a different image to keep the user interested.
+  - Text sits on a semi-opaque background to keep text readable over the image. The box will be centre-justified relative to the image, vertically and horizontally.
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- **Club Ethos Section**
-
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
-
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
-- **Meetup Times section**
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-  - This section will be updated as these times change to keep the user up to date.
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
-
 - **The Footer**
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the associated Facebook, X and linkedin pages for The Mobile Vet. There they would gather more information relevant. The links open to a new tab to avoid the user from 'losing their bearings' on the site.
+  - There is also a hyperlink to return the user to the top of the page, particularly useful for mobile users.
+  - "This page is for educational purposes only." is self-explanatory.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](docs/screenshots/footer.png)
 
 - **Gallery**
 
@@ -60,6 +47,8 @@ The Mobile Vet is a Veterinary Service to treat poorly animals. There will be a 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+
+- Where We Are (contact details) - this will show the practice location and the area serviced for call-outs
 
 ### Features Left to Implement
 
