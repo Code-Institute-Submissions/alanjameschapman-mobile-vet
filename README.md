@@ -23,6 +23,8 @@ The Mobile Vet is a Veterinary Service to treat poorly animals. There will be a 
 
 ![Hero Image](docs/screenshots/hero-image.png)
 
+![Hero Image](docs/screenshots/hero-image.png)
+
 - **The Footer**
 
   - The footer section includes links to the associated Facebook, X and linkedin pages for The Mobile Vet. There they would gather more information relevant. The links open to a new tab to avoid the user from 'losing their bearings' on the site.
