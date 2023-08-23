@@ -21,7 +21,7 @@ The Mobile Vet is a Veterinary Service to treat poorly animals. There will be a 
   - Common to all but The Team page (which already contains three profile images) each page has an image with text overlay to summarise to the user what the page is about. Each page has a different image to keep the user interested.
   - Text sits on a semi-opaque background to keep text readable over the image. The box will be centre-justified relative to the image, vertically and horizontally.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Hero Image](docs/screenshots/hero-image.png)
 
 - **The Footer**
 
@@ -31,30 +31,26 @@ The Mobile Vet is a Veterinary Service to treat poorly animals. There will be a 
 
 ![Footer](docs/screenshots/footer.png)
 
-- **Gallery**
+### Pages
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like.
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
+- **Services**
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+- This page will give an overview of the kinds of treatment that the practice can deliver.
 
-- **The Sign Up Page**
+- **Appointments**
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
+- This page allows the user to book an appointment with a vet convenient to them.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+- **The Team**
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-- Where We Are (contact details) - this will show the practice location and the area serviced for call-outs
-
-### Features Left to Implement
-
-- Another feature idea
+- Owners want to know their pets are in safe hands. This page introduces member of The Team with profiles and 'friendly faces'.
 
 ## Testing
+
+- I deployed before content creation for feedback from Mentor and friends.
+- I also posted to #peer-code-review on Slack for peer review.
+- I continuously tested my website on different screen sizes using DevTools on Chrome and different devices.
+- Once the website was deployed I checked using W3C validator at every push/deployment - see Validator Testing section.
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -84,7 +80,7 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - <https://code-institute-org.github.io/love-running-2.0/index.html>
+The live link can be found here - <https://alanjameschapman.github.io/mobile-vet/index.htm
 
 ## Credits
 
