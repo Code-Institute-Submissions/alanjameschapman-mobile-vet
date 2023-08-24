@@ -109,6 +109,7 @@ Lighthouse validation results vary accross the site (see docs) and screen sizes 
 ### Future Enhancements
 
 The form on The Appointments page doesn't do anything with the data captured, as it is not part of the course content to this point.
+
 On the index page, a Reviews section could be added to give further confidence to users on the level of service.
 
 ## Deployment
@@ -124,14 +125,16 @@ The site was deployed to GitHub pages. The steps to deploy were as follows:
 
 ### Google Font Choice
 
-I have used fonts with serif adds a desirable formal tone to the site.
-For headings: Lora is a variable font, which may help to reduce font family file size. Bold 700 seems too heavy and may take up too much space on smaller screens. Moreover, the bold 700 italic may be too cramped to read easily. Therefore, semibold 600 (with italic) and regular 400 (with italic) are all chosen.
+I have used a font with serif to add a desirable formal tone to the site.
+
+Lora is a variable font, which may help to reduce font family file size. Bold 700 seems too heavy and may take up too much space on smaller screens. Moreover, the bold 700 italic may be too cramped to read easily. Therefore, semibold 600 (with italic) and regular 400 (with italic) are all chosen.
 
 ### Content
 
-The text for the pages was created by ChatGPT
+The text for the pages was created with help from ChatGPT.
+
 The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-The images used on all pages are from https://www.pexels.com/. The authors were Snapwire, Gustavo Fring and Tima Miroshnichenko.
+The images used on all pages are from [Pexels](https://www.pexels.com/). The authors were Snapwire, Gustavo Fring and Tima Miroshnichenko.
