@@ -11,19 +11,22 @@ The website has been designed for mobile-first, from iPhone 6 and onwards, and w
 For small screens the nav bar will be reduced to a burger bar to avoid screen clutter.
 
 ### Target Audiences:
+
 - Users with pets who are poorly.
 - Users who have the ability to travel to the practice for treatment.
 - Users who are unable to travel to the practice for treatment.
 
 ### User Stories:
+
 - As a user, I want to be able to get help for my pet quickly and easily.
 - As a user, I want confidence that I will receive a professional service built on trust.
 - As a user, I want flexibility on how I can get help for my pet.
 
 ### Site Aims:
+
 - To connect with the user that will ultimately result in a sale.
 - To enable the user to be able to navigate around the website intuitively.
-- I provide a means for the user to book an appointment, or simply call. 
+- I provide a means for the user to book an appointment, or simply call.
 
 Note: Due to a house-move, I decided to take a leave of absence of 3 weeks. During this time, Code Institute updated the course to include a mobile-first approach to website design, and a Flexbox module also. Both were implemented in my final website.
 
@@ -35,7 +38,7 @@ This page will contain a hero image indicating the animals that can be treated. 
 
 Text will enable the user to see if the services might be suitable for them. Text will sit on a semi-opaque background to keep text readable over the image. The box will be centre-justified relative to the image, vertically and horizontally.
 
-- Where We Are (contact details) - this will show the practice location.
+Where We Are and contact details - this will show the practice location and provide a number to call.
 
 ![Wireframe Mobile Vet](docs/wireframes/wireframe-mobile-vet.png)
 
@@ -55,7 +58,7 @@ This page allows the user to book an appointment with a vet convenient to them.
 
 Owners want to know their pets are in safe hands. This page introduces member of The Team with profiles and 'friendly faces'.
 
-![Wireframe Appointments](docs/wireframes/wireframe-the-teams.png)
+![The Team](docs/wireframes/wireframe-the-team.png)
 
 ## Features
 
@@ -97,20 +100,21 @@ There is also a hyperlink to return the user to the top of the page, particularl
 No errors or warnings were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Falanjameschapman.github.io%2Fmobile-vet%2Findex.html)
 
 **CSS**
-No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator$link)
+No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Falanjameschapman.github.io%2Fmobile-vet%2Findex.html&usermedium=all&vextwarning=&warning=1)
 
 **LIGHTHOUSE**
 Lighthouse validation results vary accross the site (see docs) and screen sizes but in all cases checked, Accessibility is above 90%. As an example:
- ![Lighthouse for The Team](docs/screenshots/lighthouse-the-team.png)
+![Lighthouse for The Team](docs/screenshots/lighthouse-the-team.png)
 
 ### Future Enhancements
 
 The form on The Appointments page doesn't do anything with the data captured, as it is not part of the course content to this point.
-On the index page, a Reviews section could be added to give further confidence to users on the level of service. 
+On the index page, a Reviews section could be added to give further confidence to users on the level of service.
 
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy were as follows:
+
 - In the GitHub repository, I navigated to the Settings tab
 - From the source section drop-down menu, I selected the Master Branch
 - Once the master branch was selected, the page refreshed with a ribbon showing successful deployment.
