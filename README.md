@@ -87,6 +87,20 @@ There is also a hyperlink to return the user to the top of the page, particularl
 
 ![Footer](docs/screenshots/footer.png)
 
+**Color palette and contrast**
+
+The author's research found that blue was the most common colour used in veterinary branding, due to its association with calm and stability. It was therefore used as the main brand colour and accompanying colours were selected to accompany and create good contrast.
+
+![Color palette](docs/screenshots/color-palette.png)
+
+![Contrast grid](docs/screenshots/contrast-grid.png)
+
+**Font Choice**
+
+A font with serifs was used to add a desirable formal tone to the site.
+
+Lora is a variable font, which may help to reduce font family file size. Bold 700 seems too heavy and may take up too much space on smaller screens. Moreover, the bold 700 italic may be too cramped to read easily. Therefore, semibold 600 (with italic) and regular 400 (with italic) are all chosen.
+
 ## Testing
 
 - I deployed before content creation for feedback from Mentor and friends.
@@ -112,6 +126,12 @@ The form on The Appointments page doesn't do anything with the data captured, as
 
 On the index page, a Reviews section could be added to give further confidence to users on the level of service.
 
+Following on from #peer-code-review on Slack (Mark Hackney_5P and Karolis_5P):
+
+- The images could be compressed using tinyPNG to help performance.
+- The form could be better formatted.
+- Favicon and 404 page could be added.
+
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy were as follows:
@@ -123,18 +143,24 @@ The site was deployed to GitHub pages. The steps to deploy were as follows:
 
 ## Credits
 
-### Google Font Choice
-
-I have used a font with serif to add a desirable formal tone to the site.
-
-Lora is a variable font, which may help to reduce font family file size. Bold 700 seems too heavy and may take up too much space on smaller screens. Moreover, the bold 700 italic may be too cramped to read easily. Therefore, semibold 600 (with italic) and regular 400 (with italic) are all chosen.
-
 ### Content
 
 The text for the pages was created with help from ChatGPT.
 
+The Lora font was taken from Google Fonts.
+
 The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+The colour palette was created using [Colormind](http://colormind.io/bootstrap/), with input for main brand colour from Whiskercloud.
+
+The contrast was checked using Eight [Shapes Contrast Grid](https://contrast-grid.eightshapes.com/)
 
 ### Media
 
 The images used on all pages are from [Pexels](https://www.pexels.com/). The authors were Snapwire, Gustavo Fring and Tima Miroshnichenko.
+
+### Structure
+
+The Code Institute's Love Running website was used as a reference to for semantic structure.
+
+Some elements of this Readme have been taken and repurposed from the Readme shared by the author's mentor - David Bowers.
